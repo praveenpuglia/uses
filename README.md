@@ -4,7 +4,7 @@ Some people have asked me questions about my system setup. Which apps do I use a
 ---
 
 ## Terminal
-![Terminal Setup]('./images/terminal.png')
+![Terminal Setup]('/images/terminal.png')
 I use [iTerm2](https://www.iterm2.com/) with the following settings for a pleasant terminal eperience.
 
 - 🗂 Working Directory : ✅ Reuse previous session's directory.
