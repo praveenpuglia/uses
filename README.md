@@ -15,9 +15,11 @@ I use [iTerm2](https://www.iterm2.com/) with the following settings for a pleasa
 - 📝 Shell Text Editor : [Micro](https://github.com/zyedidia/micro). Yeah! Skipping the Vim vs Emacs war altogether. 😎
 - 🗂 Working Directory : ✅ Reuse previous session's directory.
 
-## Visual Studio Code - Insiders
+## Code Editor
 ![Visual Studio Code - Insiders](images/vscode.png)
-My favourite code editor and currently the only one I use. 💖
+I use VS Code. Currently my favourite & the only one I use. 💖 
+
+Why? Because it's fast. It has great extensions & also because I contributed to the CSS Language Service. So 🤟. 
 - 🎨 Color Theme : [Cobalt2 Theme Official](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
 - 🔌 Extensions
     - [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
@@ -57,6 +59,26 @@ My favourite code editor and currently the only one I use. 💖
     }
     ```
 
+## Notes & To-dos
+I recently switched to [Notion](https://www.notion.so/) and I don't think I am ever going back. I have tried gazillions of apps that help me do notes & todos but nothing has been this good. Try it out and you'll know why.
 
+## Browsers
+- Chrome 🤩
+- Firefox Developer Edition 😌
+- Safari 🙂
+- Opera 🕵️‍♂️
 
+Chrome is my primary browser and I maintain different profiles for work & personal accounts. I love it because well, it's fast, supports a lot of web standards much earlier( even though in their experimental versions ) & they have a phenomenal DevTools. 
+
+I use the following extensions with their different browser counterparts. These are spread across different profiles.
+- Awesome Screenshot
+- ColorPick Eyedropper
+- Element Screenshot
+- uBlock Origin
+- Vue Devtools
+- Octotree
+- JSONView
+- Allow-Control-Allow-Origin: *
+- Page Ruler
+- Redux Devtools
 
