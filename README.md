@@ -1,6 +1,8 @@
 # MacBook Setup
 Some people have asked me questions about my system setup. Which apps do I use and with what settings. Putting together this document to help answer those questions for anyone who wants a usable, productive & beautiful development experience. 
 
+If you find something useful here, free free to share and ⭐️ the repo. Also, if you feel I am missing interesting things, put it on the [issues](https://github.com/praveenpuglia/mac-setup/issues) and I'll definitely try it out. 
+
 ---
 
 ## Terminal
@@ -82,3 +84,22 @@ I use the following extensions with their different browser counterparts. These 
 - Page Ruler
 - Redux Devtools
 
+## Mail
+I use [Airmail Beta](https://rink.hockeyapp.net/recruit/32ae0ef725bd451f97ea05260dfa0f28). Never liked the default Mail app and I was using [Nylus N1](https://www.nylas.com/) but they have gone full blown enterprise. Somehow Nylus was extremely slow for me even though I really liked the interface & it's support for Gmail account features like labels & stars. 
+
+So I looked for a native app that would be fast, could sync faster & have intuituve UI. Airmail sits right on that spot. The best part is that I never even had to go to Airmail settings after installing it and adding an account. The defaults are good enough. 
+
+## Window Management
+Window management on Mac sucks by default. I had tried [Spectacle](https://www.spectacleapp.com/) and the likes but really settled on to [Magnet](https://itunes.apple.com/in/app/magnet/id441258766?mt=12). Yes it's not free but it can't be cheaper than this. Magnet supports both keyboard shortcuts & mouse drags. It works with multiple screens too. 
+
+## Utilities
+### Developer Utilities
+- [Docker](https://www.docker.com/) : No need for introduction. Amazing piece of software. Why isn't the entire world dockerized yet? 🤔
+- [Studio 3T](https://studio3t.com/) : For anything related to MongoDB 🍃.
+- [Helm](https://itunes.apple.com/us/app/helm-hosts-file-manager/id1099472017?mt=12) : For multiple `hosts` configurations & quick switching. 😎
+- [Skitch](https://evernote.com/products/skitch) I put it in developer utilities becase that's when I use it the most. While finding & annotating bugs or in communicating with Design. 📸
+### General Purpose Utilities
+- [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake) : To prevent Mac from going into sleep. ☕️
+- [Homebrew](https://brew.sh/) : I don't think I need to explain this. 🍻
+- [GIF Brewery 3](http://gifbrewery.com/) : To quickly record screen and make high resolution, high quality GIFs out of that. 📹
+- [Mounty](http://enjoygineering.com/mounty/) : To run NTFS (Windows) formatted HDDs on Mac. 💽
