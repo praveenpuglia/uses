@@ -6,7 +6,7 @@ If you find something useful here, free free to share and ⭐️ the repo. Also,
 ---
 
 ## Terminal
-![Terminal Setup](./images/Screen Shot 2018-06-06 at 10.16.31 AM.png)
+![Terminal Setup](./images/iterm.png)
 I use [iTerm2](https://www.iterm2.com/) with the following settings for a pleasant terminal eperience.
 
 - 🎨 Color Theme : [iTerm2 Snazzy](https://github.com/sindresorhus/iterm2-snazzy)
@@ -18,7 +18,7 @@ I use [iTerm2](https://www.iterm2.com/) with the following settings for a pleasa
 - 🗂 Working Directory : ✅ Reuse previous session's directory.
 
 ## Code Editor
-![Visual Studio Code - Insiders](images/Screen Shot 2018-06-06 at 10.22.32 AM.png)
+![Visual Studio Code - Insiders](images/vscode.png)
 I use VS Code. Currently my favourite & the only one I use. 💖 
 
 Why? Because it's fast. It has great extensions & also because I contributed to the CSS Language Service. So 🤟. 
