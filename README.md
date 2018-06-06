@@ -18,7 +18,7 @@ I use [iTerm2](https://www.iterm2.com/) with the following settings for a pleasa
 - 🗂 Working Directory : ✅ Reuse previous session's directory.
 
 ## Code Editor
-![Visual Studio Code - Insiders](images/vscode.png)
+![Visual Studio Code - Insiders](images/vscode-new.png)
 I use VS Code. Currently my favourite & the only one I use. 💖 
 
 Why? Because it's fast. It has great extensions & also because I contributed to the CSS Language Service. So 🤟. 
