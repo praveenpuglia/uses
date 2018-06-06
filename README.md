@@ -6,23 +6,23 @@ If you find something useful here, free free to share and ⭐️ the repo. Also,
 ---
 
 ## Terminal
-![Terminal Setup](./images/terminal.png)
+![Terminal Setup](./images/Screen Shot 2018-06-06 at 10.16.31 AM.png)
 I use [iTerm2](https://www.iterm2.com/) with the following settings for a pleasant terminal eperience.
 
 - 🎨 Color Theme : [iTerm2 Snazzy](https://github.com/sindresorhus/iterm2-snazzy)
-- 🔠 Font : [Iosevka Term](https://be5invis.github.io/Iosevka/), **15pt**, Anti Aliased, 110% Vertical Character Spacing. I like narrow fonts on terminal.
-- 🗄 List Files : [Exa](https://github.com/ogham/exa)
+- 🔠 Font : [Dank Mono](https://dank.sh/), **15pt**, Anti Aliased, 110% Vertical Character Spacing. 
+- 🗄 List Files : [Exa](https://github.com/ogham/exa). With `alias ls=exa` in `.zshrc`.
 - 🖥 Prompt : [Pure Prompt](https://github.com/sindresorhus/pure). Minimal, Pretty, Useful.
 - 🐚 Shell : [Zsh](http://www.zsh.org/) with [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) & this [.zshconfig](https://github.com/praveenpuglia/dotfiles/blob/master/.zshrc)
 - 📝 Shell Text Editor : [Micro](https://github.com/zyedidia/micro). Yeah! Skipping the Vim vs Emacs war altogether. 😎
 - 🗂 Working Directory : ✅ Reuse previous session's directory.
 
 ## Code Editor
-![Visual Studio Code - Insiders](images/vscode.png)
+![Visual Studio Code - Insiders](images/Screen Shot 2018-06-06 at 10.22.32 AM.png)
 I use VS Code. Currently my favourite & the only one I use. 💖 
 
 Why? Because it's fast. It has great extensions & also because I contributed to the CSS Language Service. So 🤟. 
-- 🎨 Color Theme : [Cobalt2 Theme Official](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
+- 🎨 Monokai Pro : [Monokai Pro Official Website](https://www.monokai.pro/vscode/)
 - 🔌 Extensions
     - [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
     - [Debugger For Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
@@ -41,13 +41,13 @@ Why? Because it's fast. It has great extensions & also because I contributed to 
     - [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
     - [VS Code CSS Comments](https://marketplace.visualstudio.com/items?itemName=ashhitch.vs-code-css-comments)
 - 💅 Icon Theme : Seti (Visual Studio Code) - Comes preinstalled.
-- 🔠 Font : [Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono)
+- 🔠 Font : [Dank Mono](https://dank.sh/). Freaking amazing font.
 - ⚙️ User Settings 
     ```json
     {
-        "editor.fontFamily": "Roboto Mono",
+        "editor.fontFamily": "Dank Mono",
         "editor.fontLigatures": true,
-        "editor.fontSize": 13,
+        "editor.fontSize": 15,
         "editor.lineHeight": 30,
         "editor.multiCursorModifier": "ctrlCmd",
         "editor.wordWrap": "on",
@@ -63,6 +63,8 @@ Why? Because it's fast. It has great extensions & also because I contributed to 
 
 ## Notes & To-dos
 I recently switched to [Notion](https://www.notion.so/) and I don't think I am ever going back. I have tried gazillions of apps that help me do notes & todos but nothing has been this good. Try it out and you'll know why.
+
+**UPDATE:** Couldn't afford to buy Notion. I miss it but have moved on to [Typora](https://typora.io/). It's not as fancy as Notion but it's the best Markdown editor I have ever found.
 
 ## Browsers
 - Chrome 🤩
@@ -83,6 +85,7 @@ I use the following extensions with their different browser counterparts. These 
 - Allow-Control-Allow-Origin: *
 - Page Ruler
 - Redux Devtools
+- Vue Devtools
 
 ## Mail
 I use [Airmail Beta](https://rink.hockeyapp.net/recruit/32ae0ef725bd451f97ea05260dfa0f28). Never liked the default Mail app and I was using [Nylus N1](https://www.nylas.com/) but they have gone full blown enterprise. Somehow Nylus was extremely slow for me even though I really liked the interface & it's support for Gmail account features like labels & stars. 
