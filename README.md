@@ -1,97 +1,135 @@
-# MacBook Setup
+# Uses
 
-Some people have asked me questions about my system setup. Which apps do I use and with what settings. Putting together this document to help answer those questions for anyone who wants a usable, productive & beautiful development experience.
-
-If you find something useful here, free free to share and ⭐️ the repo. Also, if you feel I am missing interesting things, put it on the [issues](https://github.com/praveenpuglia/mac-setup/issues) and I'll definitely try it out.
+If you find something useful here, free free to share and ⭐️ the repo. Also, if you feel I am missing interesting things, put it on the [issues](https://github.com/praveenpuglia/uses/issues) and I'll definitely try it out.
 
 ---
 
-## Update
+## 💻 Hardware
 
-I have moved to from using a mix of dark and light themes to totally using light theme everywhere. Earlier, switching back and forth between the browser and the code editor / terminal gave my eyes nightmares.
+I currently use an M1 MacBook Air. 8-Core 8GB RAM version. It's crazy fast and power efficient. With my frontend development workflow it gives me about 1.5 days to 2 days.
 
-Switching to light theme as really helped my eyes and if you are into heavy front-end development, you should probably consider doing the same for a test drive and see if it helps.
+## 🌚 Dark or 🌞 Light?
 
-## Terminal
+I have joined the light side. I gave the dark side a bunch of tries but it hurts my eyes. All the themes and color schemes I have mentioned are light.
 
-![Terminal Setup](./images/iterm-v2.png)
-I use [iTerm2](https://www.iterm2.com/) with the following settings for a pleasant terminal eperience.
+## ✍️ Font
 
-- 🎨 Color Theme : [Night Owlish Light](https://github.com/praveenpuglia/night-owlish-theme) - I made this myself because I didn't like any light theme out there. On a MBP, It gives amazing contrast and doesn't give my eyes the pain.
-- 🔠 Font : Moved to [Fira Code](https://github.com/tonsky/FiraCode), **15pt**, Anti Aliased.
-- 🗄 List Files : [Exa](https://github.com/ogham/exa). With `alias ls=exa` in `.zshrc`.
-- 🖥 Prompt : [Spaceship Prompt](https://github.com/denysdovhan/spaceship-prompt). Slightly heavier than my prev favourite, Pure Prompt but it looks amazing and has tons of customization.
-- 🐚 Shell : [Zsh](http://www.zsh.org/) with [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) & this [.zshconfig](https://github.com/praveenpuglia/dotfiles/blob/master/.zshrc)
-- 📝 Shell Text Editor : [Micro](https://github.com/zyedidia/micro). Yeah! Skipping the Vim vs Emacs war altogether. 😎
-- 🗂 Working Directory : ✅ Reuse previous session's directory.
-- <kbd>New</kbd> Minimal Mode in iTerm. Makes the tabs look cleaner.
+I have gotten into the habit of using the same font across all my tools. My current favourite is [Julia Mono](https://juliamono.netlify.app/download/).
 
-## Code Editor
+- Legible
+- Supports Ligatures
 
-![Visual Studio Code](images/vscode-v2.png).
+## 👨‍💻 Code Editor
 
-Why?
+### Primary
 
-- Because it's fast.
-- It has great extensions.
-- Also because I contributed to the CSS Language Service. So 🤟.
+I have switched over to [WebStorm](https://www.jetbrains.com/webstorm/) from [VS Code](https://code.visualstudio.com/). Even though it's on the heavier side and slightly slower than VS Code, I find the intellisense in WebStorm to be far superior. I do use VS Code sometimes when I need to open one off files or quickly iterate on a demo or write blog posts.
 
-- 🎨 Color Theme: [GitHub Plus](https://marketplace.visualstudio.com/items?itemName=thenikso.github-plus-theme) : Has one of the best contrasts in light themes.
-- 💅 Icon Theme : [Material Icon Theme ](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-- 🔠 Font : [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) - It's a surprisingly underestimated amazing coding font. Looks dope!
+#### Configuration
 
-## Notes & To-dos
+- **Theme** : IntelliJ Light
+- **Color Scheme** : GitHub
 
-I recently switched to [Notion](https://www.notion.so/) and I don't think I am ever going back. I have tried gazillions of apps that help me do notes & todos but nothing has been this good. Try it out and you'll know why.
+### Secondary
 
-**UPDATE:** Couldn't afford to buy Notion. I miss it but have moved on to [Typora](https://typora.io/). It's not as fancy as Notion but it's the best Markdown editor I have ever found.
+VS Code is my secondary code editor for light work and one off things.
 
-## Browsers
+#### Configuration
 
-- Firefox Developer Edition 😌
-- Chrome 🤩
-- Safari 🙂
-- Opera 🕵️‍♂️
+- **Color Theme** : [GitHub Plus](https://marketplace.visualstudio.com/items?itemName=thenikso.github-plus-theme) & [Tailwind Breeze](https://marketplace.visualstudio.com/items?itemName=praveenpuglia.tailwind-breeze). I keep switching between these two.
+- **File Icon Theme** : [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons).
 
-I have completely made firefox my daily driver. It has evolved a lot in its recent versions. Love the containers.
+Let me know if you want to know the plugins I use and I'll put it on a gist and embed it here.
 
-I use the following extensions with their different browser counterparts. These are spread across different profiles.
+## 📺 Terminal Emulator & Shell
 
-- Awesome Screenshot
-- ColorPick Eyedropper
-- uBlock Origin
-- Vue Devtools
-- Octotree
-- JSONView
-- Allow-Control-Allow-Origin: \*
-- Page Ruler
+### Emulator
 
-## Mail
+There isn't a better terminal than [iTerm2](https://iterm2.com/). It's simply the best.
 
-I previously used Airmail beta but I have somehow never found a perfect mail app of my choice so I just resort to using the web counterparts now.
+#### Configuration
 
-## Window Management
+- **Theme** : [Night Owlish Light](https://github.com/praveenpuglia/night-owlish-theme).
+- **Other Settings**
+  - Profile > General > Working Directory > Reuse Previous Session's Directory.
+  - Preferences > Appearance > Theme > Minimal
 
-Window management on Mac sucks by default. I had tried [Spectacle](https://www.spectacleapp.com/) and the likes but really settled on to [Magnet](https://itunes.apple.com/in/app/magnet/id441258766?mt=12). Yes it's not free but it can't be cheaper than this. Magnet supports both keyboard shortcuts & mouse drags. It works with multiple screens too.
+### Shell
 
-## Utilities
+Spend a lot of time here so this configuration is dear to me. My goal is to have maximum flexibility while not losing performance. Shell load times should not be more than 0.2s for me. Beyond that it starts to feel laggy.
 
-### Productivity
+#### Configuration
 
-- [Station](https://getstation.com/) - When Franz came out, I was really happy that I wouldn't have to have 10 different applications open in the background or in browser tabs. I gradually got irritated of it because of tons of bugs it has.
+- **List Files** : [Exa](https://github.com/ogham/exa). With `alias ls=exa` in `.zshrc`.
+- **Prompt** : I use [powerlevel10k](https://github.com/romkatv/powerlevel10k). Crazy fast and feature rich. Make sure to use transient prompts & instant prompts.
+- **Shell** : [Zsh](http://www.zsh.org/) with [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) & this [.zshconfig](https://github.com/praveenpuglia/dotfiles/blob/master/.zshrc)
+- **Shell Text Editor** : [Micro](https://github.com/zyedidia/micro). Yeah! Skipping the Vim vs Emacs war altogether.
+- **Oh-My-Zsh Plugins** : `(git git-extras z zsh-syntax-highlighting zsh-autosuggestions)`
+- **SSH** : I use AutoSSH for SSH connections. Handles automatic reconnection of tunnels like a pro.
+- **Git** : I use Git with [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) as the diffing tool for much better diff experience.
+- **Other Tools**
+  - [fzf](https://github.com/junegunn/fzf) : fzf is a general-purpose command-line fuzzy finder.
+  - [fnm](https://github.com/Schniz/fnm): Fast and simple Node.js version manager, built in Rust
+  - [fkill-cli](https://github.com/sindresorhus/fkill-cli): To find and kill processes.
 
-Station is a great **and** superior alternative. It is smooth AF.
+## 🌎 Browsers
 
-### Developer Utilities
+I have all the popular browsers installed but I regularly use [Microsoft Edge](https://www.microsoft.com/en-us/edge?r=1) on both my Mac and my Android phone. It feels fast and smooth. I haven't had any memory issues with it like I sometimes used to get with Google Chrome.
 
-- [Docker](https://www.docker.com/) : No need for introduction. Amazing piece of software. Why isn't the entire world dockerized yet? 🤔
-- [Studio 3T](https://studio3t.com/) : For anything related to MongoDB 🍃.
-- [Gas Mask](https://github.com/2ndalpha/gasmask): To quickly switch between different hosts configuration.
+## 🔐 Password Manager & Authenticator
 
-### General Purpose Utilities
+[Bitwarden](https://bitwarden.com/): The free version is extremely good already.
+I am a pro, unlimited [Enpass](https://www.enpass.io/) user but I settled to Bitwarden.
 
-- [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake) : To prevent Mac from going into sleep. ☕️
-- [Homebrew](https://brew.sh/) : I don't think I need to explain this. 🍻
-- [GIF Brewery 3](http://gifbrewery.com/) : To quickly record screen and make high resolution, high quality GIFs out of that. 📹
-- [Mounty](http://enjoygineering.com/mounty/) : To run NTFS (Windows) formatted HDDs on Mac. 💽
-- [Enpass](https://www.enpass.io/): My password manager. Love it because of their pricing model and support on pretty much all platforms. Supports Touch ID.
+[Authy](https://authy.com/): Authy as the TOTP or 2FA Authenticator App. Primary reason is that it syncs across devices and has a desktop app too.
+
+## ✉️ Mail
+
+[Mimestream](https://mimestream.com/): A native macOS email client for Gmail
+
+## 🪟 Window Management
+
+[Magnet](https://itunes.apple.com/in/app/magnet/id441258766?mt=12): The best. Works with both keyboard and mouse/trackpad.
+
+## 🏃 Productivity
+
+- MacOS Notes
+- [Notion](https://notion.so)
+- [Office 365 Suite](https://www.office.com/)
+- [Alfred 4](https://www.alfredapp.com/): The free version is good enough for me.
+
+## ⚙️ Dev Tools
+
+- [Mingo](https://mingo.io/): MongoDB Database Admin GUI.
+- [Sublime Text](https://www.sublimetext.com/): No intro needed.
+- [Insomnia](https://insomnia.rest/): The REST & GraphQL Client.
+- [GasMask](https://github.com/2ndalpha/gasmask): Hosts file manager for MacOS.
+- [ElasticVue](https://elasticvue.com/): The best GUI for ElasticSearch I have found so far.
+
+## 🔉 Audio & Video
+
+- [Audacity](https://www.audacityteam.org/): For audio recording and editing.
+- [Spotify](https://spotify.com): Greatest music streaming ever!
+- [IINA](https://iina.io/): The modern media player for macOS.
+- [iMovie](https://www.apple.com/in/imovie/): For video editing.
+- [HandBrake](https://handbrake.fr/): Video transcoder.
+- [Krisp](https://http://krisp.ai/): For AI based noise cancellation. Absolutely happy with the product.
+
+## 🌅 Images
+
+- [Vectornator](https://www.vectornator.io/): For vector image editing and creation.
+- [ImageOptim](https://imageoptim.com/mac): Saves disk space & bandwidth by compressing images without losing quality.
+- [Squoosh](https://squoosh.app/): Converts / compresses images to reduce size by considerable amount.
+
+## 💬 Communication
+
+- [Zoom](https://zoom.us/)
+- [Skype](https://www.skype.com/en/)
+- [WhatsApp Desktop](https://www.whatsapp.com/download)
+
+## ⺟ Others
+
+- [Adobe Acrobat Reader](https://get.adobe.com/reader/): For PDFs
+- [Android File Transfer](https://www.android.com/filetransfer/): For connecting Android phones to Mac and transfer files.
+- [AnyDesk](https://anydesk.com/en): For remote assistance.
+- [balenaEtcher](https://www.balena.io/etcher/): For creating bootable OS.
