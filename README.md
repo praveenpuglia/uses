@@ -96,7 +96,7 @@ I am a pro, unlimited [Enpass](https://www.enpass.io/) user but I settled to Bit
 - MacOS Notes
 - [Notion](https://notion.so)
 - [Office 365 Suite](https://www.office.com/)
-- [Alfred 4](https://www.alfredapp.com/): The free version is good enough for me.
+- [Raycast](https://raycast.com) as Spotlight replacement
 
 ## ⚙️ Dev Tools
 
